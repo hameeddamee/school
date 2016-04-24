@@ -11,6 +11,10 @@ angular.module('schoolApp', [
 	
 	when('/teachers',{templateUrl:'/partials/teachers.html',controller:'teachersController'}).
 	
+	when('/fees',{templateUrl:'/partials/fees.html', controller:'feesController'}).
+	
+	when('/certificates',{templateUrl:'/partials/certificates.html', controller:'certificatesController'}).
+	
 	when('/results',{templateUrl:'/partials/results.html', controller:'resultsController'}).
 	
 	when('/syllabus',{templateUrl:'/partials/syllabus.html', controller:'syllabusController'}).

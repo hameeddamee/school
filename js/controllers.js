@@ -11,6 +11,14 @@ controller('teachersController',function($scope){
 	$scope.teachers="have to add teachers";
 }).
 
+controller('feesController',function($scope){
+	$scope.fees = "have to add fee details";
+}).
+
+controller('certificatesController',function($scope){
+	$scope.certificates = "have to issue certificates like study certificate and transfer certiicate here";
+}).
+
 controller('resultsController', function($scope){
 	$scope.results = "have to create results";
 }).
