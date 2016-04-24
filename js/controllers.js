@@ -1,6 +1,27 @@
 angular.module('schoolApp.controllers',[]).
 controller('noticeboardController', function($scope) {
 	$scope.msg = "This is notice board";
+	
+	$scope.notice = [];
+	
+	$scope.add = function(){
+		var obj = {
+			date: $scope.noticedate,
+			subject: $scope.noticesubject,
+			postedby: $scope.noticePostedBy,
+			detail: $scope.noticetextarea
+		};
+		
+		$scope.notice.push(obj);
+		
+		$scope.noticedata = "";
+		$scope.noticesubject = "";
+		$scope.noticePostedBy = "";
+		$scope.noticetextarea = "";
+		console.log("$$$$$$$$");
+		console.log($scope.notice);
+		
+	}
 }).
 
 controller('studentsController',function($scope){
