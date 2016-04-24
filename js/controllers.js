@@ -9,4 +9,28 @@ controller('studentsController',function($scope){
 
 controller('teachersController',function($scope){
 	$scope.teachers="have to add teachers";
+}).
+
+controller('resultsController', function($scope){
+	$scope.results = "have to create results";
+}).
+
+controller('syllabusController',function($scope){
+	$scope.syllabus = "have to create syllabus";
+}).
+
+controller('questionsController', function($scope){
+	$scope.questions = "have to create questions";
+}).
+
+controller('studentsSectionController', function($scope){
+	$scope.studentsSection = "have to create student section";
+}).
+
+controller('activitiesController', function($scope){
+	$scope.activities = "have to create activities";
+}).
+
+controller('updatesController', function($scope){
+	$scope.updates = "have to display the updates";
 });

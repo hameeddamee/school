@@ -11,6 +11,17 @@ angular.module('schoolApp', [
 	
 	when('/teachers',{templateUrl:'/partials/teachers.html',controller:'teachersController'}).
 	
+	when('/results',{templateUrl:'/partials/results.html', controller:'resultsController'}).
+	
+	when('/syllabus',{templateUrl:'/partials/syllabus.html', controller:'syllabusController'}).
+	
+	when('/questions',{templateUrl:'/partials/questions.html', controller:'questionsController'}).
+	
+	when('/studentsSection',{templateUrl:'/partials/studentsSection.html', controller:'studentsSectionController'}).
+	
+	when('/activities',{templateUrl:'/partials/activities.html', controller:'activitiesController'}).
+	
+	when('/updates', {templateUrl:'/partials/updates.html', controller:'updatesController'}).
 	
   otherwise({redirectTo:'/'})
 });
