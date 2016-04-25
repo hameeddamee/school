@@ -7,9 +7,17 @@ angular.module('schoolApp', [
 	
 	when('/',{templateUrl:'/partials/noticeboard.html', controller:"noticeboardController"}).
 	
-	when('/students',{templateUrl:'/partials/students.html',controller:'studentsController'}).
+	when('/addStudent',{templateUrl:'/partials/addstudent.html',controller:'addStudentController'}).
 	
-	when('/teachers',{templateUrl:'/partials/teachers.html',controller:'teachersController'}).
+	when('/editStudent',{templateUrl:'/partials/editstudent.html',controller:'editStudentController'}).
+	
+	when('/showStudent',{templateUrl:'/partials/showstudents.html',controller:'showStudentController'}).
+	
+	when('/addTeacher',{templateUrl:'/partials/addteachers.html',controller:'addTeachersController'}).
+	
+	when('/editTeacher',{templateUrl:'/partials/editteachers.html',controller:'editTeachersController'}).
+	
+	when('/showTeachers',{templateUrl:'/partials/showteachers.html',controller:'showTeachersController'}).
 	
 	when('/fees',{templateUrl:'/partials/fees.html', controller:'feesController'}).
 	

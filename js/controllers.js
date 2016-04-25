@@ -24,12 +24,28 @@ controller('noticeboardController', function($scope) {
 	}
 }).
 
-controller('studentsController',function($scope){
+controller('addStudentController',function($scope){
 	$scope.students="have to create";
 }).
 
-controller('teachersController',function($scope){
+controller('editStudentController',function($scope){
+	$scope.edit="edit/delete students here";
+}).
+
+controller('showStudentController',function($scope){
+	$scope.show="show all students here";
+}).
+
+controller('addTeachersController',function($scope){
 	$scope.teachers="have to add teachers";
+}).
+
+controller('editTeachersController', function($scope){
+	$scope.edit="have to edit here";
+}).
+
+controller('showTeachersController', function($scope){
+	$scope.show = "show the teachers";
 }).
 
 controller('feesController',function($scope){
